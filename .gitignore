@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Apify local storage (never commit)
+storage/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+.cache/
+
+# Local secrets / runtime state
+.env
+.env.*
+!.env.example
+storageState.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build outputs (if added later)
+dist/
+build/
+coverage/
+
